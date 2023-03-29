@@ -14,6 +14,11 @@ import io.restassured.http.ContentType;
 @SpringBootTest()
 class UserDetailsApplicationTests {
 	
+	@Test
+	void contextLoads() {
+	}
+
+	
 //	Test for checking Login Functionality
 	@Test
 	@Order(1)
