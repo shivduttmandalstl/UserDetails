@@ -12,9 +12,9 @@ pipeline {
         }
         stage('Build') {
             steps {
-                dir("/var/lib/jenkins/workspace/UserDetails") {
+               
                 sh 'mvn install -DskipTests'
-                }
+                
             }
         }
      }
